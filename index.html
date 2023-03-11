@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | DC Bank</title>
+    <link rel="stylesheet" href="/Bank/style/index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="childContainer">
+            <h2>Login page</h2>
+            <form action="" method="get" name="newForm" id="newform">
+                <div class="uname">
+                    <label for="uname"> Username</label><br>
+                    <input type="text" name="uname" id="uname" class="input" onsubmit="return chck()">
+                </div>
+                <div class="pass">
+                    <label for="pass">Password</label><br>
+                    <input type="password" name="pass" id="pass" class="input" required minlength="8">
+                </div>
+                <div class="submit">
+                    <input class="btn" type="submit" value="Sign in">
+                </div>
+                <p style="display: flex;justify-content: center;">---------- or ----------</p>
+                <div class="lastContainer">
+                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/login/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                        <a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S620918107%3A1678280269813067&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHdgou-ZMykqmZ8irvALe-eo_U26iRLv57uRVZYamknSu9tR4zlbS2mtc-Ej6QASUSJge5E_iw">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                </div>
+            </form>
+            <div class="foot">
+                <p>&#169;	Copyright <span style="font-style:italic;">DC Bank</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

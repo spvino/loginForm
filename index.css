@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    font-size: 1.02rem;
+}
+.container{
+    height: 680px;
+    min-width: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.childContainer{
+    position: relative;
+    background-image: linear-gradient(67deg,rgb(239, 51, 51),rgb(72, 72, 242));
+    height: 490px;
+    width: 420px;
+    padding: 8px;
+    color: white;
+    box-shadow: 3px 3px 19px grey;
+}
+h2{
+    text-align: center;
+    margin: 6px 0px 50px 0px;
+    font-size: 1.8rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.uname, .pass{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+}
+.input{
+    margin-top: 2px;
+    width: 240px;
+    height: 30px;
+    padding: 0px 6px 0px 6px;
+    font-size: 0.9em;
+    border-radius: 6px;
+}
+.btn{
+    margin-top: 24px;
+    width: 125px;
+    height: 35px;
+    border-radius: 9px;
+    background-color: rgb(52, 178, 54);
+    color: white;
+}
+.foot{
+    position: relative;
+    top: 95px;
+    /* bottom: -165px; */
+    left: 125px;
+}
+.foot > a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    text-decoration: underline;
+    color: blue;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+.lastContainer a > i{
+    margin: 12px 25px;
+    color: white;
+    transform: scale(1.5)
+}
+.lastContainer a>i:hover{
+    transform: scale(1.71)
+}
